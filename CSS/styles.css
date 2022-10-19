@@ -4,9 +4,9 @@
   --accent-text-color: #2196f3;
   --primary-bg-color: #ffffff;
   --accent-bg-color: #2f303a;
-  --secondary-bg-color: #F5F5F5;
-  --special-bg-color: #F5F4FA;
-  --header-border-color: #ECECEC;
+  --secondary-bg-color: #f5f5f5;
+  --special-bg-color: #f5f4fa;
+  --header-border-color: #ececec;
   --logo-head-color: #000000;
   --card-set-gap: 30px;
 }
@@ -23,7 +23,7 @@
 }
 .page-header {
   background-color: var(--primary-bg-color);
-  border: 1px solid var(--header-border-color)
+  border: 1px solid var(--header-border-color);
 }
 .page {
   background-color: var(--primary-bg-color);
@@ -38,7 +38,7 @@ a {
 .logo {
   width: 145px;
   margin-right: 93px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -50,7 +50,7 @@ a {
 }
 .logo-title {
   color: var(--accent-text-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .logo-text {
   color: var(--primary-bg-color);
@@ -64,10 +64,10 @@ a {
   display: flex;
   background-color: var(--primary-bg-color);
 }
-.site-nav .item{
+.site-nav .item {
   margin-right: 50px;
 }
-.site-nav .item:last-child{
+.site-nav .item:last-child {
   margin-right: 0;
 }
 .site-nav .link {
@@ -108,7 +108,7 @@ a {
   display: flex;
 }
 
-.contacts .item + .item{
+.contacts .item + .item {
   margin-left: 50px;
   list-style: none;
 }
@@ -123,8 +123,7 @@ a {
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .hero {
   background-color: var(--accent-bg-color);
@@ -286,11 +285,12 @@ img {
   margin-right: 0;
 }
 .team-content {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   text-align: center;
   padding-top: var(--card-set-gap);
   padding-bottom: var(--card-set-gap);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .team-list .team-item:last-child {
@@ -371,8 +371,8 @@ img {
 }
 
 .card-content {
-  background-color: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -392,7 +392,6 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 
 footer {
   display: block;
@@ -441,7 +440,7 @@ footer {
   color: var(--accent-text-color);
 }
 address {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

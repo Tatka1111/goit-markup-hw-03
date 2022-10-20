@@ -20,20 +20,32 @@
 .main-header {
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 .page-header {
+  margin: 0;
+  padding: 0;
   background-color: var(--primary-bg-color);
-  border: 1px solid var(--header-border-color);
+  border-bottom: 1px solid var(--header-border-color);
 }
 .page {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 nav {
   letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 .logo {
   width: 145px;
@@ -126,9 +138,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .hero {
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--accent-bg-color);
   text-align: center;
-  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--primary-bg-color);
@@ -137,16 +151,14 @@ body {
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
-  padding-top: 200px;
-  padding-right: 452px;
-  padding-bottom: 280px;
-  padding-left: 452px;
-  margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .button {
   border-radius: 4px;
   padding: 10px 32px;
-  min-width: 216px;
   text-align: center;
   color: var(--primary-bg-color);
   background-color: var(--accent-text-color);
@@ -193,11 +205,14 @@ img {
   height: auto;
 }
 .about {
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--secondary-bg-color);
 }
 
 .feature-list .title {
-  padding-top: 94px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -225,19 +240,24 @@ img {
 .feature-list > .item:last-child {
   margin-right: 0;
 }
+
+.work {
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--secondary-bg-color);
+}
 .section-title {
+  margin: 0;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
 }
-.work {
-  background-color: var(--secondary-bg-color);
-}
 .work-list {
-  margin-top: 50px;
-  margin-left: 0;
+  margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
@@ -254,11 +274,13 @@ img {
 }
 
 .team {
+  margin: 0;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--special-bg-color);
 }
 .team-title {
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -297,14 +319,15 @@ img {
   margin-right: 0;
 }
 .filter {
-  background-color: var(--secondary-bg-color);
+  margin: 0;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .filter .list {
   display: flex;
+  margin: 0;
+  padding: 0;
   margin-bottom: 50px;
-  background-color: var(--secondary-bg-color);
   align-items: center;
   justify-content: center;
 }
@@ -316,10 +339,6 @@ img {
 }
 .button.thirdly {
   border-radius: 4px;
-  padding-top: 6px;
-  padding-right: 25px;
-  padding-bottom: 6px;
-  padding-left: 25px;
   text-align: center;
   color: var(--primary-bg-color);
   background-color: var(--accent-text-color);
@@ -330,10 +349,6 @@ img {
 }
 .button.secondary {
   border-radius: 4px;
-  padding-top: 6px;
-  padding-right: 22px;
-  padding-bottom: 6px;
-  padding-left: 22px;
   text-align: center;
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -379,6 +394,7 @@ img {
 }
 .card-title {
   padding-top: 20px;
+  margin: 0;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -387,14 +403,19 @@ img {
 }
 .card-text {
   margin-top: 4px;
+  padding: 0;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0;
 }
 
 footer {
   display: block;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0;
   background-color: var(--accent-bg-color);
 }
 .footer-logo {

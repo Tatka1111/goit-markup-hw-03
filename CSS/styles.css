@@ -128,6 +128,7 @@ a {
 .contacts:focus {
   color: var(--accent-text-color);
 }
+
 .phone:hover,
 .phone:focus {
   color: var(--accent-text-color);
@@ -139,8 +140,8 @@ body {
 }
 .hero {
   margin: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--accent-bg-color);
   text-align: center;
 }
@@ -154,6 +155,7 @@ body {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -207,7 +209,6 @@ img {
 .about {
   margin: 0;
   padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--secondary-bg-color);
 }
 
@@ -280,7 +281,8 @@ img {
   background-color: var(--special-bg-color);
 }
 .team-title {
-  margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -371,7 +373,6 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
@@ -413,14 +414,20 @@ img {
 
 footer {
   display: block;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 60px;
   margin: 0;
   background-color: var(--accent-bg-color);
 }
+.footer-container {
+  max-width: 1200px;
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .footer-logo {
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .footer-list {
@@ -435,7 +442,6 @@ footer {
 }
 .footer-list .footer-item:last-child {
   margin-bottom: 0;
-  padding-bottom: 60px;
 }
 .contact-address {
   color: var(--primary-bg-color);
